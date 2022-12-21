@@ -1,9 +1,7 @@
-
 let local = localStorage
 
 const getDataClick = () => {
     let inp = document.querySelector('input');
-    let text = document.querySelector('textarea');
 
     if (inp.value !== "" && !inp.value.includes(" ")) {
         let data = {
